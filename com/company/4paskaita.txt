@@ -1,0 +1,70 @@
+
+
+        String name = "Tom";
+        String surname = "Hardy";
+
+        if (name.length() < surname.length()) {
+            System.out.println(name);
+        }else{
+            System.out.println(surname);
+        }
+
+        System.out.println(name.toUpperCase());
+        System.out.println(surname.toLowerCase());
+
+        String firstLetters = name.charAt(0) +""+ surname.charAt(0);
+        System.out.println(firstLetters);
+
+        String threeLetter = name.substring(name.length()- 3) + surname.substring(surname.length()- 3);
+        System.out.println(threeLetter);
+
+        String removeAa = "An American in Paris".replace("a", "*").replace("A", "*");
+        System.out.println(removeAa);
+
+        String str = "An American in Paris";
+        System.out.println(str.replaceAll("[AEIOUaeiou]",""));
+        str = "Breakfast at Tiffany's";
+        System.out.println(str.replaceAll("[AEIOUaeiou]",""));
+        str = "2001: A Space Odyssey";
+        System.out.println(str.replaceAll("[AEIOUaeiou]",""));
+        str = "It's a Wonderful Life";
+        System.out.println(str.replaceAll("[AEIOUaeiou]",""));
+
+        String seven = "Star Wars: Episode "+ " ".repeat( (int) (Math.random() * 10))+((int) (Math.random() * 7)+1) + " - A New Hope";
+        System.out.println(seven);
+
+        System.out.println(seven.substring(seven.length()-14,seven.length()-13));
+
+
+        String starWars = "Star Wars: Episode "+" ".repeat( (int) (Math.random() * 10))+((int) (Math.random() * 7)+1) + " - A New Hope";
+
+        System.out.println("The episode is "+starWars.replaceAll("[^\\d]", " ").trim());
+
+
+        String additional = "Don't Be a Menace to South Central While Drinking Your Juice in the Hood";
+        String additionalArray[] = additional.split(" ");
+        for (String i : additionalArray){
+            int n = 0;
+            if(i.length() >= 5);
+                n += 1;
+                continue;
+        System.out.println(n);
+        }
+
+
+
+//
+        Scanner scanner = new Scanner(System.in);
+//        System.out.println("Agento vardas");
+//        String name1 = scanner.nextLine(); // Input something to Java
+//        System.out.println("Jusu slapto agento vardas yra " + name1);
+
+        System.out.println("Vardas");
+        String name2 = scanner.nextLine();
+        System.out.println("Pavarde");
+        String surname2 = scanner.nextLine();
+        System.out.println("Amzius?");
+        int coding = scanner.nextInt();
+
+        long currentTime = new java.sql.Timestamp(System.currentTimeMillis()).getTime(); // 1970
+        System.out.println(currentTime);

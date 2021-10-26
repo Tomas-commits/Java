@@ -1,0 +1,36 @@
+package com.company;
+
+public class Java2 {
+    public static void paskaita(String[] args) {
+        System.out.println(" \" "); // Escape character
+
+        String name = "Tomas";
+        String surname = "Purvinys";
+        int birthyear = 1992;
+        int thisyear = 2021;
+        System.out.println("Aš esu " + name + surname + ". Man yra" + (birthyear - thisyear));
+
+
+        System.out.println(" \" "); // Escape character
+
+        String name = "Tomas";
+        String surname = "Purvinys";
+        int birthYear = 1992;
+        int thisYear = 2021;
+        System.out.println("Aš esu " + name + " " + surname + ". Man yra" + " " + (thisYear - birthYear) + " metai.");
+
+
+        double rnd = Math.random() * 4; // will be 3
+        int rndInt = (int) rnd;  // makes int
+        System.out.println(rndInt + " " + rnd );
+        int random = (int)(Math.random()) * 7 + 2; // Random number from 2 to 7
+
+
+
+
+
+
+
+
+    }
+}

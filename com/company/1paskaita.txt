@@ -1,0 +1,40 @@
+package com.company;
+
+public class Java1 {
+    System.out.println("Hello world!"); // sout
+
+    Integer sk2 = 2; // turi daugiau metodu
+    String tekstas = "Kazkoks tekstas"; // nurodyti reikia string tipą
+    tekstas = "kitoks tekstas";
+    tekstas += " prailgintas";
+
+    int sk = 7;
+    double skDouble = 7.2; //64 bit
+    float skFloat = 7.2f; //32 bit
+    char raide = 'k'; // vienas simbolis
+    boolean truFals = true;
+    byte hm = 7;
+    I
+
+        if(){}
+        else(){}
+        for(){}
+        while(){}
+        switch(){}
+        do{}while()
+    Function(){}
+        for (int i = 0; i < 10; i++){
+
+        if ("siandien lija"){
+            System.out.println("sketis");
+        } else if("siandien salta") {
+            System.out.println("paltas");
+        }else{
+            System.out.println("kazkas kita");
+        }
+    }
+
+
+
+
+}

@@ -1,0 +1,68 @@
+package com.company;
+
+public class Main { // turi sutapti su failu pavadinimu (klase)
+//
+public static void main(String[] args) {
+        double number1 = Math.random() * 5;
+        double number2 = Math.random() * 5;
+        if( number1 > number2) {
+            double x1 = number1 / number2;
+            System.out.println(number1 + " Pirmas daugiau");
+            System.out.println(number2);
+            double round1 = Math.round(x1*100.0) / 100.0;
+            System.out.println(round1);
+        }else{
+            double x2 = number2 / number1;
+            System.out.println(number1);
+            System.out.println(number2 + " Antras daugiau");
+            double round2 = Math.round(x2*100.0) / 100.0;
+            System.out.println(round2);
+        }
+
+        double firstNumber = Math.random() * 25;
+        double secondNumber = Math.random() * 25;
+        double thirdNumber = Math.random() * 25;
+        int firstNumberInt = Math.round( (int) firstNumber);
+        int secondNumberInt = Math.round( (int) secondNumber);
+        int thirdNumberInt = Math.round( (int) thirdNumber);
+    System.out.println(firstNumberInt);
+    System.out.println(secondNumberInt);
+    System.out.println(thirdNumberInt);
+        if (firstNumberInt > secondNumberInt && secondNumberInt > thirdNumberInt){
+            System.out.println("Second Number is middle " + secondNumberInt);
+        }
+        if (secondNumberInt > firstNumberInt && firstNumberInt > thirdNumberInt){
+            System.out.println("first Number is middle " + firstNumberInt);
+        }
+        if (secondNumberInt > thirdNumberInt && thirdNumberInt > firstNumberInt){
+            System.out.println("third Number is middle " + thirdNumberInt);
+        }
+        if ( thirdNumberInt > secondNumberInt && secondNumberInt > firstNumberInt){
+            System.out.println("Second Number is middle " + secondNumberInt);
+        }
+        if ( thirdNumberInt > secondNumberInt && secondNumberInt > firstNumberInt){
+            System.out.println("third Number is middle " + thirdNumberInt);
+        }
+        if ( thirdNumberInt > secondNumberInt && secondNumberInt > firstNumberInt){
+            System.out.println("third Number is middle " + thirdNumberInt);
+        }
+
+
+        int krastineA = (int)(Math.random() * 11);
+        int krastineB = (int)(Math.random() * 11);
+        int krastineC = (int)(Math.random() * 11);
+    System.out.println("Krastine A lygu " + krastineA + ", Krastine B lygu "+krastineB+ " Krastine C lygu " +krastineC);
+    if ((krastineA + krastineB > krastineC) && (krastineA + krastineC > krastineB) && (krastineB + krastineC > krastineA)){
+        System.out.println("Galimas");
+    }else{
+        System.out.println("Negalimas");
+    }
+
+
+
+
+
+
+
+    }
+}

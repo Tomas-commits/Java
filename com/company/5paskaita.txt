@@ -1,0 +1,109 @@
+//        int count = 0;
+//        for (int i = 0; i<300; i++) {
+//            int random = (int) (Math.random() * 300);
+//            System.out.println(random + " ");
+//            if ( random > 150 ){
+//                count++;
+//            }
+//            if (random > 275){
+//                System.out.println("("+random + ") ");
+//            }
+//
+//        }
+//        System.out.println("random number's above 150 are " + count);
+
+
+//        for (int i = 0; i < 3000; i++) {
+//            if (i % 77 == 0){
+//                System.out.print(i);
+//                if (i != 2926) {
+//                    System.out.print(", ");
+//                }
+//            }
+//        }
+
+//        String star = "*".repeat(100);
+//        for (int i = 0; i < 100; i++) {
+//            System.out.println(star);
+//        }
+
+        // Penkta
+//        int moneta = 1;
+//        while (moneta == 1) {
+//            moneta = (int) Math.round(Math.random());
+//            if (moneta == 1) {
+//                System.out.println("S");
+//            }
+//            if (moneta == 0) {
+//                System.out.println("H");
+//            }
+//        }
+
+        //Tris kartus iškritus herbui
+
+//                int n = 0;
+//        while (n < 3) {
+//            int moneta = (int) Math.round(Math.random());
+//            if (moneta == 1) {
+//                System.out.println("S");
+//            }
+//            if (moneta == 0) {
+//                n++;
+//                System.out.println("H");
+//            }
+//        }
+
+        //Tris kartus iš eilės iškritus herbui
+
+//        int n = 0;
+//        while (n < 3) {
+//            int moneta = (int) Math.round(Math.random());
+//            if (moneta == 0) {
+//                System.out.println("H");
+//            n += 1;
+//            }else{
+//            n = 0;
+//                System.out.println("S");
+//            }
+//        }
+
+
+        //Sesta uzduotis
+
+//        int kazys = 0;
+//        int petras = 0;
+//
+//        while ( kazys < 222 || petras < 222) {
+//        kazys += (int)Math.round(Math.random() * 20 + 5);
+//        petras += (int)Math.round(Math.random() * 10 + 10);
+//       }
+//        if (kazys > petras) {
+//            System.out.println("Kazys taskai: "+kazys + " Petras taskai: "+petras);
+//            System.out.println("Partija laimejo Kazys");
+//        }else{
+//            System.out.println("Petras taskai: "+petras + " Kazys taskai: "+kazys);
+//            System.out.println("Partija laimejo Petras");
+//        }
+
+        //Astunta uzduotis
+//                int smugiai = 0;
+//                for (int i = 0; i < 5; i++) {
+//                    for (int n = 0; n < 8.5; ) {
+//                        n += (int) Math.round(Math.random() * 15 + 5);
+//                        smugiai += 1;
+//                    }
+//        }
+//        System.out.println("Penkiems viniems ikalti reikia "+smugiai+ " smugiu.");
+
+                        int smugiai = 0;
+                for (int i = 0; i < 5;) {
+                    int tikimybe = (int) Math.round(Math.random());
+                    smugiai += 1;
+                    if (tikimybe == 1) {
+                        for (int n = 0; n < 8.5; i++) {
+                            n += (int) Math.round(Math.random() * 10 + 20);
+
+                    }
+                    }
+        }
+        System.out.println("Penkiems viniems ikalti reikia "+smugiai+ " smugiu.");
